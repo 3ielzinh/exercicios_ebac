@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Módulo VII - Exercício HTML e JS</title>
+    <link rel="stylesheet" href="./main.css">
+</head>
+<body>
+    <main id="container">
+        <section id="comparador">
+            <form id="form">
+                <h1 id="title">
+                    B é maior do que A?
+                </h1>
+                <div class="input-box">
+                    <label>
+                        Digite o valor de A:
+                    </label>
+                    <div class="input-number">
+                        <input type="number" id="number-a" required>
+                    </div>
+                </div>
+                <div class="input-box">
+                    <label>
+                        Digite o valor de B:
+                    </label>
+                    <div class="input-number">
+                        <input type="number" id="number-b" required>
+                    </div>
+                </div>
+                <button id="button">Verificar</button>
+                <div id="infos" class="hidden">
+                    <div id="result">
+                        <span id="value"></span>
+                        <span>Resultado:</span>
+                    </div>
+                    <div id="description">
+                        <span></span>
+                    </div>
+                </div>
+            </form>
+        </section>
+    </main>
+    <script src="./main.js"></script>
+</body>
+</html>
