@@ -17,5 +17,10 @@ function verificaNumero(event) {
         description = 'O valor de B é igual ao valor de A.'
     }
 
+<<<<<<< HEAD
     document.getElementById('description').textContent = description;
 };
+=======
+    document.getElementById('description').textContent = description
+}
+>>>>>>> 8a50240ed72c9699483fbb263d191cc6ec1ae94d
