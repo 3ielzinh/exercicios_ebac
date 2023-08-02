@@ -1,4 +1,3 @@
-
 var form = document.getElementById('form');
 form.addEventListener('submit', verificaNumero);
 
@@ -18,5 +17,5 @@ function verificaNumero(event) {
         description = 'O valor de B é igual ao valor de A.'
     }
 
-    document.getElementById('description').textContent = description
-}
+    document.getElementById('description').textContent = description;
+};
