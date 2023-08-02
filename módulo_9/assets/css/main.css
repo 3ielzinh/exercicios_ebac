@@ -1,0 +1,99 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: #18181b;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+h1 {
+    font-size: 40px;
+    font-weight: bold;
+    margin: 8px 0 16px 0;
+    color: rgb(255,255,255);
+    border-bottom: 1px solid #16a34a;
+}
+
+form {
+    background-color: #3f3f46;
+    border-radius: 8px;
+    padding: 8px;
+    margin: 8px;
+}
+
+form input {
+    background-color: transparent;
+    border: 1px solid #16a34a;
+    border-radius: 8px;
+    font-size: 1rem;
+    color: #f8fafc;
+    padding: 0 0.5rem;
+    outline: none;
+    margin: 8px;
+}
+
+#nome-tarefa {
+    height: 3rem;
+}
+
+#cadastrar {
+    height: 2rem;
+    width: 8rem;
+}
+
+form button {
+    border: none;
+    font-size: 1rem;
+    font-weight: bold;
+    background-color: #16a34a;
+    color: #f8fafc;
+    padding: 0.5rem 0;
+    border-radius: 8px;
+    cursor: pointer;
+    display: inline-block;
+}
+
+.list {
+    background-color: #16a34a80;
+    border-radius: 8px;
+    grid-area: f;
+}
+
+.list li {
+    list-style: none;
+    border-radius: 8px;
+    color: #f8fafc;
+    font-weight: bold;
+    margin-bottom: 4px;
+    transition: background 1s;
+    height: 100%;
+    width: 100%;
+}
+
+.list li:hover {
+    background-color: #16a34a;
+    border-radius: 8px;
+    height: 100%;
+}
+
+.list input {
+    accent-color: #16a34a;
+}
+
+.list input:checked + span {
+    text-decoration: line-through;
+}
+
+.list li:has(input:checked) {
+    background-color: #f8fafc;
+    color: #16a34a;
+    border-radius: 8px;
+}
