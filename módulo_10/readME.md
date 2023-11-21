@@ -1,4 +1,4 @@
-* Ideias de layout/estruturação do projeto:
+Ideias de layout/estruturação do projeto:
 
 1- Criar uma tela de login fictíssia para melhorar o visual do projeto;
 

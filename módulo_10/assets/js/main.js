@@ -1,4 +1,14 @@
 $(document).ready(function(){
+    $('.button-gg').hover(function() {
+        $(this).find('.g, .o, .o2, .g, .l, .e').css('color', '#fff');
+    }, function() {
+        $(this).find('.g, .o, .o2, .g, .l, .e').css('color', '');
+    });
+    $('.button-gg').hover(function(){
+        $(this).find('img').attr('src', './assets/icones/gg-b.jpg')
+    }, function() {
+        $(this).find('img').attr('src', './assets/icones/google.png')
+    });
     $('#telefone').mask('(00) 00000-0000');
     $('#cpf').mask('000.000.000-00');
     $('#cep').mask('00000-000')

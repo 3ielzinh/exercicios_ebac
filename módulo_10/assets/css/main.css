@@ -5,8 +5,9 @@ body {
     display: flex;
     align-items: center;
     justify-content: center;
+    height: 100vh;
     background: linear-gradient(45deg, #d2001a, #7462ff, #f48e21, #23d5ab);
-    background-size: 300% 300%;
+    background-size: 400% 400%;
     animation: color 12s ease-in-out infinite;
 }
 @keyframes color {
@@ -30,6 +31,7 @@ body {
 .container {
     display: flex;
     align-items: center;
+    justify-content: center;
     width: 860px;
 }
 
@@ -160,6 +162,26 @@ button img {
 .gg {
     text-decoration: none;
     color: #333333;
+}
+
+.g {
+    color: #4285f4;
+}
+
+.o {
+    color: #db4437;
+}
+
+.o2 {
+    color: #f4b400;
+}
+
+.l {
+    color: #0f9d58;
+}
+
+.e {
+    color: #4285f4;
 }
 
 .button-entrar:hover{
