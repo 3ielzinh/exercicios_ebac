@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário de Cadastro</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="./assets/css/main.css">
+</head>
+<body class="container text-center position-absolute top-50 start-50 translate-middle bg-primary bg-gradient">
+    <div class="row bg-white rounded-4 mx-auto p-4 shadow-lg" style="width: 600px;">
+        <div class="col-6 mx-auto" style="width: 100%;">
+            <form>
+                <div class="mb-3">
+                    <label for="name" class="form-label">Nome:</label>
+                    <input type="text" class="form-control" id="name" name="name">
+                    <div class="form-text" id="mensagemForm">Escreva seu nome completo.</div>
+                </div>
+                <div class="mb-3">
+                    <label for="email" class="form-label">E-mail:</label>
+                    <input type="email" class="form-control" id="email" name="email">
+                    <div class="form-text" id="mensagemForm">Utilize seu melhor e-mail.</div>
+                </div>
+                <div class="mb-3">
+                    <label for="tel" class="form-label">Telefone:</label>
+                    <input type="tel" class="form-control" id="tel" name="tel">
+                    <div class="form-text" id="mensagemForm">Utilize seu melhor telefone.</div>
+                </div>
+                <button type="submit" class="btn btn-primary bg-gradient">Cadastrar</button>
+            </form>
+        </div>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+    <!-- Inicializador do JQuery -->
+    <script type="text/javascript" src="//code.jquery.com/jquery-1.11.0.min.js"></script>
+    <script type="text/javascript" src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+    <!-- Inicializador do JQuery Mask Plugin -->
+    <script src="./assets/js/jquery.mask.min.js"></script>
+    <!-- Inicializador do JQuery Validation Plugin -->
+    <script src="./assets/js/jquery.validate.min.js"></script>
+    <!-- Innicializador da tradução do JQuery Validation Plugin -->
+    <script src="./assets/js/messages_pt_BR.min.js"></script>
+    <script src="./assets/js/main.js"></script>
+</body>
+</html>
